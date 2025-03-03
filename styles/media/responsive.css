@@ -1,0 +1,248 @@
+@media (max-width: 1024px) {
+  .carousel-caption {
+    top: 30%;
+  }
+
+  .process__section__boxes {
+    width: 100%;
+  }
+
+  .game__section {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .cta__content__title {
+    font-size: 3.2rem;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .game-logo__first-img {
+    width: 80%;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer__contact__icon-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .footer__contact__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer__info__logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .footer__info__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .footer__social-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 15px;
+  }
+
+  .footer__social-icons__link {
+    display: inline-block;
+  }
+
+  .footer__social-icons__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .footer__current__date__box {
+    margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .registration-form,
+  .header__image {
+    display: none;
+  }
+
+  .hamburger {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+
+  .burger-menu.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .registration-form_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2.4rem;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 1rem;
+    margin-left: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+
+  .form-button {
+    width: 100%;
+    padding: 1.2rem 0;
+    border: none;
+    border-radius: 5px;
+    color: var(--color-black);
+    font-weight: 600;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-bottom: 2.4rem;
+  }
+
+  .form-button--register {
+    background-color: var(--color-green);
+  }
+
+  .form-button--submit {
+    background-color: var(--casino-gold);
+  }
+
+  .form-group img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .process__section__header__title {
+    text-align: center;
+  }
+
+  .process__section__boxes {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .game_list_section {
+    margin-top: 4.8rem;
+  }
+
+  .game_list_container {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cta__section {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .cta__content {
+    width: 100%;
+  }
+
+  .cta__image {
+    width: 15%;
+    margin: 0 auto;
+  }
+}
+
+/* Small screens (Mobiles) */
+@media (max-width: 480px) {
+  .game_list_container {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
